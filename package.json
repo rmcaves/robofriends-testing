@@ -6,6 +6,8 @@
   "dependencies": {
     "chokidar": "^3.4.0",
     "gh-pages": "^1.1.0",
+    "husky": "^4.2.5",
+    "pretty-quick": "^2.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-redux": "^5.0.7",
@@ -21,10 +23,12 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "pre-commit": "pretty-quick --staged"
   },
   "devDependencies": {
     "enzyme": "^3.11.0",
-    "enzyme-adapter-react-16": "^1.15.2"
+    "enzyme-adapter-react-16": "^1.15.2",
+    "prettier": "2.0.5"
   }
 }
