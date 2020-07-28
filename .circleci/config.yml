@@ -7,7 +7,7 @@ jobs:
       - run:
           name: The First Step
           command: |
-            echo 'Hello World!'
+            echo 'Hello World 2!'
             echo 'This is the delivery pipeline 2'
   sally:
     docker:
@@ -16,7 +16,7 @@ jobs:
       - run:
           name: The First Step
           command: |
-            echo 'Double Trouble!'
+            echo 'Double Trouble 2!'
             echo 'This is another delivery pipeline 2'
 workflows:
   version: 2
