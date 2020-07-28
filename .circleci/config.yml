@@ -8,7 +8,7 @@ jobs:
           name: The First Step
           command: |
             echo 'Hello World!'
-            echo 'This is the delivery pipeline'
+            echo 'This is the delivery pipeline 2'
   sally:
     docker:
       - image: alpine:3.7
@@ -17,7 +17,7 @@ jobs:
           name: The First Step
           command: |
             echo 'Double Trouble!'
-            echo 'This is another delivery pipeline'
+            echo 'This is another delivery pipeline 2'
 workflows:
   version: 2
   bobby_sally:
